@@ -1,0 +1,34 @@
+{
+  "name": "playwright-jev-testing",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript automation testing with TypeSafe Jev as the intelligence layer for semantic assertions, element selection, goal-driven flows, and failure classification (flake vs genuine, fix vs ticket).",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "codegen": "playwright codegen",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "jev",
+    "typesafe",
+    "automation",
+    "e2e",
+    "semantic-testing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@typesafe-ai/sdk": "^0.6.0",
+    "typescript": "^5.6.0",
+    "@types/node": "^22.0.0",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
